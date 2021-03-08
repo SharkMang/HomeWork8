@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Students</title>
+
+    <script src="Students.js" async></script>
+    
+</head>
+<body>
+    <div class="students">
+        <form action="" method="GET" onsubmit="return false;">
+            <input type="text" name="firstname" value="" placeholder="ФИО студента" /> 
+            <input type="number" name="course" value="" placeholder="Курс"/> 
+            <input type="number" name="estimate" value="" placeholder="Оценка"/>
+            <input type="text" name="email" value="" placeholder="Email"/>
+            <input type="checkbox" id="is_active" name="is_active" value="" />
+            <label for="is_active">Активность</label>
+            <input type="submit" name="send" value="Добавить" />
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Курс</th>
+                    <th>Оценка</th>
+                    <th>Email</th>
+                    <th>Активность</th>
+                    <th>Удалить студента</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+
+        </table>
+    </div>
+    <div class="avgEstimate">
+        <table>
+            <thead>
+                <tr>
+                    <th>Курс</th>
+                    <th>Количество активных студентов</th>
+                    <th>Средняя оценка</th>
+                    <th>Количество не активных студентов</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
